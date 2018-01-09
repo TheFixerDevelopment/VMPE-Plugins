@@ -1,0 +1,14 @@
+name: RandomNick
+main: Random\Main
+version: 2.0.0
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+author: UltimateDevs & Zeao
+commands:
+  nick:
+    description: "Nick yourself with a random nickname!"
+    permission: nick
+    
+permissions:
+ nick:
+  description: "Allow to give your a random nick"
+  default: op

@@ -1,0 +1,12 @@
+  name: NoFallDamage
+  main: thebigsmileXD\NoFallDamage\Main
+  version: 0.0.2-ALPHA8
+  api: 3.0.0-ALPHA8
+  load: POSTWORLD
+  prefix: "NoFallDamage"
+  author: [Zeao]
+  description: "Disable fall damage"
+  permissions:
+    nofalldamage:
+      description: doesnt get fall damage
+      default: true

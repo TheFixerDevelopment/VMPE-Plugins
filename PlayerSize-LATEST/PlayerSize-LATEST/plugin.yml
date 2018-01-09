@@ -1,0 +1,16 @@
+name: PlayerSize
+author: Zeao
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+main: emanuele0204\Loader
+version: 2.0.0-B1
+
+permissions:
+ playersize:
+  children:
+   playersize.command:
+    children:
+     playersize.command.size:
+      default: op
+      children:
+      playersize.size:
+      default: op
