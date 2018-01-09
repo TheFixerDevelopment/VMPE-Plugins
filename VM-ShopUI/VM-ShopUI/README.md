@@ -1,2 +1,3 @@
-# PlexiumPE-ShopGUI
-PlexiumPE-ShopGUI | CustomPotions Added! | *Warning* - Must Have PlexiumPE-CORE To Enable CustomPotions!
+# ShopGUI
+ShopGUI | CustomPotions Added! | *Warning* - Must Have VM-CORE To Enable CustomPotions!
+Link - Updating shortly.
