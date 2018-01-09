@@ -1,9 +1,9 @@
 name: VoteReward
 main: LDX\VoteReward\Main
-version: 4.0.0-B1
+version: 4.0.0
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 author: VMPE Development Team
-website: "http://votereward.mcpe.me"
+website: "Not showing due to self-Leak information."
 load: POSTWORLD
 commands:
   vote:
