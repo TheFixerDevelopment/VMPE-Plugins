@@ -1,6 +1,6 @@
 name: FactionsPro
 author: Tethered_, edited by VMPE Development Team
-description: A Factions plugin.
+description: A Modded / customised FactionsPro plugin.
 version: 1.3.11-6
 main: FactionsPro\FactionMain
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
