@@ -1,11 +1,11 @@
 name: Broadcaster
 main: Broadcaster\Main
-version: "1.18"
+version: "1.19"
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 load: STARTUP
 author: VMPE Development Team
-description: Advanced Broadcasting Plugin
-website: http://www.evolsoft.tk
+description: One of the best Auto-Broadcasting systems.
+website: Not showing due to self-leak information.
 commands:
  broadcaster:
   aliases: [bc, broadcast]
