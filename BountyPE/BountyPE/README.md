@@ -1,7 +1,8 @@
 # BountyPE + Stats
 
- - Download working .phar from here --> https://www.imagicalmine.gq/community/plugins/bounty.707/
-
-### Join my Prison/Factions MCPE server and check it out. 
-> IP: FallenTech.tk
+ - Download working .phar from here --> Coming soon.
+### Join my Factions MCPE server and check it out. 
+> IP: voidfactionspe.ml
 > Port: 19132
+
+
