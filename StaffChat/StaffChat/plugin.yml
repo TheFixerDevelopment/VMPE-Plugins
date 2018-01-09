@@ -1,8 +1,8 @@
 name: StaffChat
-version: 1.1.0
+version: 2.0.0
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
-author: Thunder33345
-website: "https://github.com/ThunderDoesPlugins/StaffChat"
+author: VMPE Development Team
+website: "Not showing due to self-leak information."
 description: "Private Staff Chat Plugin"
 main: Thunder33345\StaffChat\StaffChat
 
