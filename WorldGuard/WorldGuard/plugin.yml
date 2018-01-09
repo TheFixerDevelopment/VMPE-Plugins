@@ -2,7 +2,7 @@ name: WorldGuard
 main: WorldGuard\WorldGuard
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
 version: 1.2.6
-author: [VMPE Development Team]
+author: VMPE Development Team
 website: Not showing due to self leak information.
 description: WorldGuard, ported from Bukkit to PocketMine (MCPE.)
 commands:
