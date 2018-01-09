@@ -1,0 +1,38 @@
+---
+# Set what rewards you can get
+# Use the ID of the item
+# Player will receive all of these rewards per a tier
+# Set max amount of items you can get, number is randomized
+
+# Tier 1
+tier-1-rewards:
+- "1"
+- "2"
+- "3"
+- "4"
+- "5"
+
+tier-1-max: 6
+
+
+# Tier 2
+tier-2-rewards:
+- "7"
+- "8"
+- "9"
+- "10"
+- "11"
+
+tier-2-max: 12
+
+
+# Tier 3
+tier-3-rewards:
+- "13"
+- "14"
+- "15"
+- "16"
+- "17"
+
+tier-3-max: 18
+...

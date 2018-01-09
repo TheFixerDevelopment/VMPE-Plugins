@@ -1,0 +1,6 @@
+name: DropPartyPvP
+author: VMPE Development Team
+version: 0.0.1-B1
+description: Schedule DropParties for your server, but PVP mode.
+main: dropparty\DropParty
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]

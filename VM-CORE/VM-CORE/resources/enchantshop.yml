@@ -1,0 +1,17 @@
+---
+# Price of protection (per a level)
+protection-money: 
+
+# Price of sharpness (per a level)
+sharpness-money: 
+
+# Price of efficiency (per a level)
+efficiency-money: 
+
+# Price of unbreaking (per a level)
+unbreaking-money: 
+
+# Price of looting (per a level)
+looting-money: 
+
+...
