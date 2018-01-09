@@ -5,15 +5,15 @@ namespace AntiDupe;
 
 use pocketmine\tile\Tile;
 use pocketmine\tile\Hopper;
-use pocketmine\event\Listener as LT;
-use pocketmine\plugin\PluginBase as PB;
+use pocketmine\event\Listener;
+use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\level\sound\AnvilUseSound;
 use pocketmine\level\Level;
 use pocketmine\Player;
 use pocketmine\Server;
 
-class Main extends PB implements LT{
+class Main extends PluginBase implements Listener{
 	
 	public $prefix = "§8[§5AntiDupe§8] ";
 	
