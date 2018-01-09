@@ -1,0 +1,51 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TheFixerDevelopment/VMPE-Plugins
+branches:
+- master
+projects:
+  AdminFunPE.AdminFunPE:
+    path: AdminFunPE/AdminFunPE/
+  AntiAbusiveEnchants.AntiAbusiveEnchants:
+    path: AntiAbusiveEnchants/AntiAbusiveEnchants/
+  AntiDupe.AntiDupe:
+    path: AntiDupe/AntiDupe/
+  BanSystem-UPDATED.BanSystem-UPDATED:
+    path: BanSystem-UPDATED/BanSystem-UPDATED/
+  BountyPE.BountyPE:
+    path: BountyPE/BountyPE/
+  Broadcaster.Broadcaster:
+    path: Broadcaster/Broadcaster/
+  DropParty (PvP Mode).DropParty (PvP Mode):
+    path: DropParty (PvP Mode)/DropParty (PvP Mode)/
+  DropParty.DropParty:
+    path: DropParty/DropParty/
+  FactionsPro.FactionsPro:
+    path: FactionsPro/FactionsPro/
+  HungerDisabler.HungerDisabler:
+    path: HungerDisabler/HungerDisabler/
+  NoFallDamage.NoFallDamage.Unknown_v1 (2):
+    path: NoFallDamage/NoFallDamage/Unknown_v1 (2)/
+  NoFallDamage.NoFallDamage:
+    path: NoFallDamage/NoFallDamage/
+  PlayerSize-LATEST.PlayerSize-LATEST:
+    path: PlayerSize-LATEST/PlayerSize-LATEST/
+  RandomNick.RandomNick:
+    path: RandomNick/RandomNick/
+  SafeFlyV2.SafeFlyV2:
+    path: SafeFlyV2/SafeFlyV2/
+  Slapper.Slapper:
+    path: Slapper/Slapper/
+  StaffChat.StaffChat:
+    path: StaffChat/StaffChat/
+  TimeRanks.TimeRanks:
+    path: TimeRanks/TimeRanks/
+  VM-CORE.VM-CORE:
+    path: VM-CORE/VM-CORE/
+  VM-ShopUI.VM-ShopUI:
+    path: VM-ShopUI/VM-ShopUI/
+  VMCombatLogger.VMCombatLogger:
+    path: VMCombatLogger/VMCombatLogger/
+  VoteReward.VoteReward:
+    path: VoteReward/VoteReward/
+  WorldGuard.WorldGuard:
+    path: WorldGuard/WorldGuard/
+...
