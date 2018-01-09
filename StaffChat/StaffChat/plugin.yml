@@ -1,0 +1,32 @@
+name: StaffChat
+version: 1.1.0
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+author: Thunder33345
+website: "https://github.com/ThunderDoesPlugins/StaffChat"
+description: "Private Staff Chat Plugin"
+main: Thunder33345\StaffChat\StaffChat
+
+commands:
+  staffchat:
+    description: "Staff chat command"
+    aliases: ['sc']
+
+permissions:
+  staffchat:
+    default: false
+    children:
+      staffchat.read:
+        default: op
+        description: "Read from staff chat"
+      staffchat.chat:
+        default: op
+        description: "Chat into staff chat"
+      staffchat.attach:
+        default: op
+        description: "Attach console into staff chat"
+      staffchat.check:
+        default: op
+        description: "Check other players status"
+      staffchat.list:
+        default: op
+        description: "Show info list of players"

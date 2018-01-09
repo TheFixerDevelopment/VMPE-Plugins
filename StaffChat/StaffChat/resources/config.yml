@@ -1,0 +1,42 @@
+---
+# Config
+
+# Chat prefix to treat as staff chat
+# This will work if the prefix is more than one character long
+prefix: "."
+
+# Automatically attaches console into staff chat on startup
+auto-attach: "true"
+
+# Console prefix for StaffChat
+# Can be safely omitted
+console-prefix: '[StaffChat] '
+
+# Chat Formats
+# Colour code info, this uses PMMP TextFormat constants, ![constant] casing is automatically dealt with
+# This https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/utils/TextFormat.php show all the available constants
+
+# Player Chat Format
+player-format: "![bold]![gold]<Staff>![reset]![white]%player%![yellow]![bold]>![reset] ![white]%msg%"
+
+# Plugin Format
+# Only used if plugin did not supply a custom format
+plugin-format: "![bold]![gold]<Staff>[Plugin]![reset]![white]%plugin%![yellow]![bold]>![reset] ![white]%msg%"
+
+# Functions
+# BETA feature
+# to use type them into staffchat
+# current functions:
+# $ping = plays sound to the staff and highlights '$ping'
+# $pos = replace $pos with "Level: (level) X: (x) Y: (y) Z: (z)"
+# $near(distance)$ = replaces it with players that are near you using specifyed number ex $near10$
+# if you have any ideas please do suggest it over at issues or discord channle
+functions: "true"
+
+# Weather to enable staff joinleave announce in staff channel
+joinleave: "true"
+# Join Message broadcasted to staff
+join: "![bold]![gold]<Staff>![reset] ![yellow]%staff% ![white]connected"
+# Leave Message broadcasted to staff
+leave: "![bold]![gold]<Staff>![reset] ![yellow]%staff% ![white]disconnected"
+...

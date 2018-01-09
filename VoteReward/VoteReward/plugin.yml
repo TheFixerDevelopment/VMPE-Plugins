@@ -1,0 +1,27 @@
+name: VoteReward
+main: LDX\VoteReward\Main
+version: 4.0.0-B1
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+author: VMPE Development Team
+website: "http://votereward.mcpe.me"
+load: POSTWORLD
+commands:
+  vote:
+    usage: "/vote"
+    description: "Checks to see if you've voted yet."
+    permission: votereward.command.vote
+permissions:
+  votereward:
+    default: false
+    description: "Allows access to all VoteReward features."
+    children:
+      votereward.command:
+        default: false
+        description: "Allows access to all VoteReward commands."
+        children:
+          votereward.command.vote:
+            default: true
+            description: "Allows access to using the vote command."
+          votereward.command.reload:
+            default: op
+            description: "Allows access to the vote reload subcommand."
