@@ -1,7 +1,6 @@
 name: VM-Core
 main: Core\Loader
-version: 2.0.0-B1
+version: 2.0.0
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 author: VMPE Development Team
-description: VM-Core
-commands:
+description: A core for VoidMinerPE.
