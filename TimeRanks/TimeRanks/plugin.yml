@@ -1,12 +1,11 @@
 name: TimeRanks
 main: TimeRanks\Main
-version: 3.0.0-ALPHA8
-api: [3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
-
+version: 3.0.0
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 load: POSTWORLD
-author: Zeao.
+author: VMPE Development Team
 description: Add easy ranks to your server
-website: https://github.com/luca28pet/TimeRanks
+website: Not showing due to self-leak information.
 commands:
  timeranks:
   description: The main command
