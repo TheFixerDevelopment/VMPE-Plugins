@@ -1,0 +1,5 @@
+name: AntiAbusiveEnchants
+main: AAE\Main
+version: 1.5.0-B2
+author: VMPE Development Team
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]

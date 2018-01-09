@@ -1,0 +1,6 @@
+name: VMCombatLogger
+version: 1.2.4
+api: 3.0.0-ALPHA9, 3.0.0-ALPHA10
+author: VMPE Development Team
+main: Lambo\CombatLogger\Main
+description: Stop players from logging out during a fight

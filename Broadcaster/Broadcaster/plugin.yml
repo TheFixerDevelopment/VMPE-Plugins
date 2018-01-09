@@ -1,0 +1,38 @@
+name: Broadcaster
+main: Broadcaster\Main
+version: "1.18"
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+load: STARTUP
+author: VMPE Development Team
+description: Advanced Broadcasting Plugin
+website: http://www.evolsoft.tk
+commands:
+ broadcaster:
+  aliases: [bc, broadcast]
+  description: Broadcaster Commands.
+  permission: broadcaster
+ sendmessage:
+  aliases: [sm, smsg]
+  description: Send a message to the specified player (* for all players)
+  permission: broadcaster.sendmessage
+ sendpopup:
+  aliases: [sp, spop]
+  description: Send a popup to the specified player (* for all players)
+  permission: broadcaster.sendpopup
+permissions:
+ broadcaster:
+  default: op
+  description: Broadcaster commands permissions.
+  children:
+   broadcaster.info:
+    default: op
+    description: Allows player to read info about Broadcaster.
+   broadcaster.reload:
+    default: op
+    description: Allows player to reload Broadcaster.
+   broadcaster.sendmessage:
+    default: op
+    description: Allows sending messages to players with /sendmessage command.
+   broadcaster.sendpopup:
+    default: op
+    description: Allows sending popups to players with /sendpopup command.

@@ -1,0 +1,15 @@
+---
+# CONFIG V3.0
+# Minimum bounty which could be set on a player
+min_bounty: 10000
+# Server Broadcast status. 1 = Enabled, 0 = Disabled.
+bounty_broadcast: 1
+# Bounty stats to show on nametag. 1 = Enabled, 0 = Disabled.
+bounty_stats: 1
+# Health stats to show on nametag. 1 = Enabled, 0 = Disabled.
+health_stats: 1
+# Bounty Fine on victim Death. 1 = Enabled, 0 = Disabled.
+bounty_fine: 1
+# Percentage of the bounty on the player to reduce as Bounty Fine
+fine_percentage: 10
+...

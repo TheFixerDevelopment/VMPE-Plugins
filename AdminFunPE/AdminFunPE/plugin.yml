@@ -1,0 +1,67 @@
+name: AdminFun
+main: AdminFun\AdminFun
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
+version: 2.0.0
+author: VMPE Development Team
+
+commands:
+  adminfun:
+    usage: /adminfun help
+    description: Main command of AdminFun plugin
+    permission: adminfun.command
+    aliases: ["af", "afun"]
+
+permissions: 
+  adminfun.command:
+    default: op
+    children:
+      adminfun.command.slap:
+        default: op    
+      adminfun.command.zap:
+        default: op       
+      adminfun.command.tell:
+        default: op       
+      adminfun.command.invlock:
+        default: op          
+      adminfun.command.announce:
+        default: op
+      adminfun.command.bgod:
+        default: op
+      adminfun.command.bherobrine:
+        default: op
+      adminfun.command.broadcast:
+        default: op
+      adminfun.command.burn:
+        default: op
+      adminfun.command.confuse:
+        default: op
+      adminfun.command.console:
+        default: op
+      adminfun.command.dropparty:
+        #default: op
+      adminfun.command.explode:
+        default: op
+      adminfun.command.fakejoin:
+        default: op
+      adminfun.command.fakeop:
+        default: op
+      adminfun.command.fakequit:
+        default: op
+      adminfun.command.freeze:
+        default: op
+      adminfun.command.maxhealth:
+        default: op
+      adminfun.command.playerchat:
+        default: op
+      adminfun.command.randomtp:
+        default: op
+      adminfun.command.reload:
+        default: op
+      adminfun.command.rocket:
+        default: op
+      adminfun.command.spamcast:
+        default: op
+      adminfun.command.swap:
+        default: op
+      adminfun.command.void:
+        default: op

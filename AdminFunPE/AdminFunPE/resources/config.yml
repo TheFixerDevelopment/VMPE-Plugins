@@ -1,0 +1,19 @@
+## AdminFun Configuration File
+
+# Announce format
+announce-format: '&b[Announce] &6%msg%'
+
+# BGod format
+bgod-format: '&e&l[GOD] &6%msg%'
+
+# Bherobrine format
+bherobrine-format: '&2&l[HEROBRINE] &d%msg%'
+
+# Fake join format
+fakejoin-format: '&e%name% joined the game'
+
+# Fake Quit format
+fakequit-format: '&e%name% left the game'
+
+# Player chat format
+playerchat-format: '&f<%name%> %msg%'
