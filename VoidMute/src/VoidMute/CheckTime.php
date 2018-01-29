@@ -17,7 +17,7 @@
 	along with this program.  If not, see (http://www.gnu.org/licenses/). 
 */
 
-namespace RealMute;
+namespace VoidMute;
 
 use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\Config;
