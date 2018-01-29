@@ -1,7 +1,7 @@
 <?php
 /* 
-	RealMute, a PocketMine-MP chat management plugin with many extra features.
-	Copyright (C) 2016, 2017 Leo3418 (https://github.com/Leo3418)
+	VoidMute, a PocketMine-MP chat management plugin with many extra features.
+	Copyright (C) 2016, 2017, 2018.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 	along with this program.  If not, see (http://www.gnu.org/licenses/). 
 */
 
-namespace RealMute;
+namespace VoidMute;
 
 use pocketmine\Player;
 use pocketmine\Server;
@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener{
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->notice("Copyright (C) 2016, 2017 Leo3418");
-		$this->getLogger()->notice("RealMute is free software licensed under GNU GPLv3 with the absence of any warranty");
+		$this->getLogger()->notice("VoidMute is free software licensed under GNU GPLv3 with the absence of any warranty");
 		if(!is_dir($this->getDataFolder())) mkdir($this->getDataFolder());
 		if(!is_dir($this->getDataFolder()."players")) mkdir($this->getDataFolder()."players", 0777, true);
 		$defaultconfig = array(
