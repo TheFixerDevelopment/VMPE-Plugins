@@ -1,0 +1,6 @@
+name: VMHealthMSG
+main: HMR\Main
+version: "2.0.0-B1"
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: VMPE Development Team

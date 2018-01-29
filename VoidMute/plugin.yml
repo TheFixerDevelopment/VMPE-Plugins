@@ -1,0 +1,56 @@
+name: RealMute
+main: RealMute\Main
+version: 4.0.0-B1
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: VMPE Development Team
+description: A chat management plugin with many extra features.
+website: https://github.com/Leo3418/RealMute/
+
+commands:
+ realmute:
+  aliases: 
+    - rmt
+  description: "RealMute options"
+  usage: "/realmute help|<options>"
+  permission: realmute.option
+ rmute:
+  description: "Mute a player"
+  usage: "/rmute <player> [time in minutes]"
+  permission: realmute.mute
+ runmute:
+  description: "Unmute a player"
+  usage: "/runmute <player>"
+  permission: realmute.unmute
+ muteall:
+  description: "Mute all players"
+  usage: "/muteall"
+  permission: realmute.muteall
+ unmuteall:
+  description: "Unmute all players"
+  usage: "/unmuteall"
+  permission: realmute.unmuteall
+  
+permissions:
+ realmute:
+  description: "Allows all RealMute commands"
+  default: op
+  children:
+   realmute.muteignored:
+    description: "Allows sending messages when all players are muted"
+    default: op
+   realmute.option:
+    description: "Allows changing RealMute options"
+    default: op
+   realmute.mute:
+    description: "Allows muting individual players"
+    default: op
+   realmute.unmute:
+    description: "Allows unmuting individual players"
+    default: op
+   realmute.muteall:
+    description: "Allows muting all players"
+    default: op
+   realmute.unmuteall:
+    description: "Allows unmuting individual players"
+    default: op
