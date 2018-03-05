@@ -29,5 +29,5 @@ class MuteList extends BanList {
         $entry->setExpires($expires);
         $entry->setSource($source ?? $entry->getSource());
         parent::addBan($entry->getName(), $entry->getReason(), $entry->getExpires(), $entry->getSource());
-    }
+    return true;
 }
