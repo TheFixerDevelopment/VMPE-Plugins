@@ -1,12 +1,9 @@
 <?php
-
 namespace bansystem\permission;
-
 use DateTime;
 use InvalidArgumentException;
 use pocketmine\permission\BanEntry;
 use pocketmine\permission\BanList;
-
 class BlockList extends BanList {
     
     public function add(BanEntry $entry) {
@@ -29,5 +26,6 @@ class BlockList extends BanList {
         $entry->setExpires($expires);
         $entry->setSource($source ?? $entry->getSource());
         parent::addBan($entry->getName(), $entry->getReason(), $entry->getExpires(), $entry->getSource());;
+    return true;
     }
 }
