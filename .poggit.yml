@@ -1,47 +1,5 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TheFixerDevelopment/VMPE-Plugins
 projects:
-  AdminFunPE:
-    path: AdminFunPE/AdminFunPE/
-  AntiAbusiveEnchants:
-    path: AntiAbusiveEnchants/AntiAbusiveEnchants/
-  AntiDupe:
-    path: AntiDupe/AntiDupe/
-  BanSystem-UPDATED:
+  BanSystem
     path: BanSystem-UPDATED/BanSystem-UPDATED/
-  BountyPE:
-    path: BountyPE/BountyPE/
-  Broadcaster:
-    path: Broadcaster/Broadcaster/
-  DropParty (PvP Mode):
-    path: DropParty (PvP Mode)/DropParty (PvP Mode)/
-  DropParty:
-    path: DropParty/DropParty/
-  FactionsPro:
-    path: FactionsPro/FactionsPro/
-  HungerDisabler:
-    path: HungerDisabler/HungerDisabler/
-  NoFallDamage:
-    path: NoFallDamage/NoFallDamage/
-  PlayerSize-LATEST:
-    path: PlayerSize-LATEST/PlayerSize-LATEST/
-  RandomNick:
-    path: RandomNick/RandomNick/
-  SafeFlyV2:
-    path: SafeFlyV2/SafeFlyV2/
-  Slapper:
-    path: Slapper/Slapper/
-  StaffChat:
-    path: StaffChat/StaffChat/
-  TimeRanks:
-    path: TimeRanks/TimeRanks/
-  VM-CORE.VM-CORE:
-    path: VM-CORE/VM-CORE/
-  VM-ShopUI:
-    path: VM-ShopUI/VM-ShopUI/
-  VMCombatLogger:
-    path: VMCombatLogger/VMCombatLogger/
-  VoteReward:
-    path: VoteReward/VoteReward/
-  WorldGuard:
-    path: WorldGuard/WorldGuard/
 ...
