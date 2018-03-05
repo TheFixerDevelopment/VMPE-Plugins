@@ -23,7 +23,7 @@ class BlockList extends BanList {
      * @param \DateTime $expires
      * @param string $source
      */
-    public function addBan(string $target, string $reason = null, \DateTime $expires = null, string $source = null) : BanEntry{
+    public function addBan(string $target, string $reason = null, \DateTime $expires = null, string $source = null) : BlockEntry{
         $entry = new BlockEntry($target);
         $entry->setReason($reason ?? $entry->getReason());
         $entry->setExpires($expires);
