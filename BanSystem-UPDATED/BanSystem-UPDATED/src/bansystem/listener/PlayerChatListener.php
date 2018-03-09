@@ -33,7 +33,7 @@ class PlayerChatListener implements Listener {
                 }
                 $muteReason = $entry->getReason();
                 if ($muteReason != null || $muteReason != "") {
-                    $muteMessage = TextFormat::RED . "You are currently muted for " . TextFormat::AQUA . $reason . TextFormat::RED . " until " . TextFormat::AQUA . $expiry . TextFormat::RED . ".";
+                    $muteMessage = TextFormat::RED . "You are currently muted for " . TextFormat::AQUA . $muteReason . TextFormat::RED . " until " . TextFormat::AQUA . $expiry . TextFormat::RED . ".";
                 } else {
                     $muteMessage = TextFormat::RED . "You are currently muted until " . TextFormat::AQUA . $expiry . TextFormat::RED . ".";
                 }
