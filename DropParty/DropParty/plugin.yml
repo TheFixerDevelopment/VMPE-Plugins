@@ -3,4 +3,4 @@ author: VMPE Development Team
 version: 2.0.0-B1
 description: Schedule DropParties for your server (Normal Mode)
 main: dropparty\DropParty
-api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
+api: [3.0.0]
